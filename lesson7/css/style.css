@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.body {
+  font-family: Tahoma, sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.left-bar {
+  width: 285px;
+  float: left;
+  background-color: #fbfbfb;
+  margin-top: 46px;
+}
+
+.right-bar {
+  width: 915px;
+  float: left;
+  margin-top: 46px;
+}
+
+.right-bar-top {
+  margin-left: 20px;
+}
+
+.tor-filter {
+  float: left;
+}
+
+.top-select {
+  float: right;
+  display: flex;
+}
+
+.item {
+  float: left;
+  width: 285px;
+  margin-left: 20px;
+  margin-bottom: 70px;
+  padding-top: 20px;
+  background-color: #fbfbfb;
+  height: 350px;
+}
+
+.item-image {
+  height: 285px; /* Задаем фиксированную высоту для контейнера изображения */
+  display: flex;
+  align-items: center;
+  justify-content: center;}
+
+  .item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+.item .about p {
+  color: #3d3d3d;
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.item .about a {
+  color: #46a358;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.category-name {
+  float: left;
+  width: 200px;
+  padding: 0 0 0 27px;
+  line-height: 40px;
+}
+
+.category-number {
+  width: 50px;
+  float: right;
+  padding: 0 22px 0 0;
+  line-height: 40px;
+  text-align: right;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 14px 182px 7px 16px;
+}
+
+.left-bar ul {
+  padding: 0;
+  list-style: none;
+}
+
+.left-bar .category-name a {
+  color: #4e4c4c;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+.left-bar .category-number a {
+  color: #4e4c4c;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+.category-item:hover .category-name a,
+.category-item:hover .category-number a {
+  color: #46a358;
+}
+
+.enter {
+  color: #3d3d3d;
+  background: none;
+  border: none;
+  padding: 0;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 2px solid transparent; /* добавлено */
+}
+
+.enter:hover {
+  color: #46a358;
+  border-bottom: 2px solid #46a358;
+}
+.plants {
+  margin: 0 40px 38px 0;
+}
+
+.arrivals {
+  margin: 0 42px 38px 0;
+}
+
+.sale {
+  margin: 0 410px 38px 0;
+}
+
+.text-sort {
+  color: #3d3d3d;
+  font-weight: 400;
+  font-size: 15px;
+  margin-right: 8px;
+}
+
+.paginator {
+  display: flex;
+  float: right;
+  margin-top: 20px;
+}
+
+.paginator a {
+  color: #3d3d3d;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginator a.active {
+  background-color: white;
+}
+
+.paginator a:hover {
+  background-color: #46a358;
+  color: white;
+  border-color: #e5e5e5;
+}
