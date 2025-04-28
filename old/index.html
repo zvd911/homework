@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Билет</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        Регистрация
+    <p>
+       <label>
+        Имя*
+        <input type="name" name="firstname" required>
+    </label>
+</p>
+<p>
+    <label
+>        Телефон*
+        <input type="tel" name="phone" required>
+    </label>
+</p>
+<p>
+    <label>
+        email*
+        <input type="email" name="email" required>
+    </label>
+</p>
+<p>
+    <label>
+        пароль*
+        <input type="password" name="password" required>
+    </label>
+</p>
+</fieldset>
+
+<fieldset>
+    Подбор рейса
+<p>
+<label>
+    Откуда
+<select name="where are we going from">
+<option value="Kyiv">Киев</option>
+<option value="Zaporozhye">Запорожье</option>
+<option value="Kharkov">Харьков</option>
+<option value="Dnepr">Днепр</option>
+</select>
+</label>
+</p>
+<p>
+<label>
+    Куда
+<select name="where are we going">
+<option value="Kyiv">Киев</option>
+<option value="Zaporozhye">Запорожье</option>
+<option value="Kharkov">Харьков</option>
+<option value="Dnepr">Днепр</option>
+</select>
+</label>
+</p>
+<p>
+<label>
+    Туда
+    <input type="date" name="date">
+</label>
+</p>
+<p>
+<label>
+    Обратно
+    <input type="date" name="date">
+</label>
+</p>
+<p>
+<label>
+    Кол-во билетов
+    <input type="number" name="countpeople">
+</label>
+</p>
+<h4>Дети</h4>
+<p>
+<label>
+    <input type="radio" name="children" value="0 cheldren" checked>
+    Без детей
+</label>
+</p>
+<p>
+<label>
+    <input type="radio" name="children" value="1 cheldren">
+    1 ребенок
+</label>
+</p>
+<p>
+<label>
+    <input type="radio" name="childrens" value="2 cheldren">
+    2 ребенка
+</label>
+</p>
+<p>
+    <h4>Комфорт</h4>
+<label> 
+    Больше места для ног
+    <input type="checkbox" name="check1">
+</label>
+</p>
+<p>
+<label>
+    Питание
+    <input type="checkbox" name="check2">
+</label>
+</p>
+<p>
+<label>
+    Больше места для багажа
+    <input type="checkbox" name="check3" checked>
+</label>
+</p>
+<p>
+<label>
+    Место у окна
+    <input type="checkbox" name="check4">
+</label>
+</p>
+<p>
+<label>
+    Место в первом ряду
+    <input type="checkbox" name="check5">
+</label>
+</p>
+</fieldset>
+
+<fieldset>
+    Информация о страховке
+<p>
+<label>
+    <input type="checkbox" name="check5" checked>
+    Мне нужна страховка
+</label>
+</p>
+<input type="file" id="file" name="file">
+<p>
+<textarea placeholder="Дополнительная информация"></textarea>
+</p>
+</fieldset>
+    </form>
+</body>
+</html>

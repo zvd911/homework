@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../Users/BlockBaster/Desktop/task"
+	},
+	{
+		"path": "../Users/BlockBaster/Desktop/css"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "task"
+  }
+}
