@@ -1,0 +1,35 @@
+.image-block {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.image-block__pic {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+}
+
+.image-block__pic:nth-child(n + 7) {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .image-block__pic {
+    width: 33.3333%;
+  }
+
+  .image-block__pic:nth-child(n + 7) {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .image-block__pic {
+    width: 25%;
+  }
+}

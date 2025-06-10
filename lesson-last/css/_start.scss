@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+body.work-two {
+  background-color: rgba(100, 62, 114, 1);
+  background-image: url(../img/back-h.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 600px 375px;
+  height: 100vh;
+}
+
+.gray-section {
+  background-color: rgba(245, 245, 250, 1);
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+  body.work-two {
+    background-size: 1024px 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body.work-two {
+    background-size: 768px 670px;
+  }
+}
+
+.wrapper {
+  max-width: 1230px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
